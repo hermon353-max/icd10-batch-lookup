@@ -45,6 +45,7 @@ Requires Python 3.
 py -m pip install requests
 py icd10-batch-lookup.py
 ```
+![Example output]<img width="1353" height="710" alt="output png" src="https://github.com/user-attachments/assets/a4501e34-e057-4653-8575-972e3edf6ab4" />
 
 ## Built with
 

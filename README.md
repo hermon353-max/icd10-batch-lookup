@@ -8,8 +8,6 @@ Looking up one ICD-10 code is easy. Google can do it. But coders and health info
 
 This tool takes a full list at once, returns matching codes, and (in progress) flags any code that can't be billed.
 
-I'm a Health Informatics & Health Information Management student at the University of Washington, and this project connects my medical coding coursework to Python.
-
 ## How it works
 
 1. You enter a diagnosis, like `asthma`.
@@ -52,5 +50,6 @@ py icd10-batch-lookup.py
 - Python
 - `requests` library
 - NLM Clinical Tables API
+- Developed with AI-assisted guidance
 
 Update status: lookup function and batch mode done

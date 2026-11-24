@@ -9,16 +9,13 @@ def lookup(diagnosis):
     data = response.json()
     results = data[3]
 
-    print("\n" + diagnosis.upper())
-    for pair in results:
-        print(pair[0], pair[1])
+    return results
 
 diagnoses = ["asthma", "hypertension", "type 2 diabetes"]
 
 for dx in diagnoses:
-    resuls = lookup(dx)
+    results = lookup(dx)
     print("\n" + dx.upper())
     for pair in results:
         print(pair[0], pair[1])
         
-def check_code(code):

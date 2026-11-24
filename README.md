@@ -30,8 +30,8 @@ No patient data is used or stored.
 
 - [x] Call the NLM API and get results for one diagnosis
 - [x] Parse the response and print codes with descriptions
-- [ ] Turn the lookup into a reusable function
-- [ ] Batch mode: process a whole list of diagnoses at once
+- [x] Turn the lookup into a reusable function
+- [x] Batch mode: process a whole list of diagnoses at once
 - [ ] Flag non-billable (header) codes
 - [ ] Export results to CSV
 - [ ] Simple web page with Streamlit

@@ -20,3 +20,5 @@ for dx in diagnoses:
     print("\n" + dx.upper())
     for pair in results:
         print(pair[0], pair[1])
+        
+def check_code(code):

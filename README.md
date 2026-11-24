@@ -52,3 +52,5 @@ py icd10-batch-lookup.py
 - Python
 - `requests` library
 - NLM Clinical Tables API
+
+Update status: lookup function and batch mode done
